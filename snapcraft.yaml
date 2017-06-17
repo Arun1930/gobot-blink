@@ -17,3 +17,4 @@ parts:
   gobot-blink:
     source: .
     plugin: go
+    go-importpath: github.com/elopio/gobot-blink
