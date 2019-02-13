@@ -1,4 +1,4 @@
-name: gobot-blink-elopio
+name: gobot-blink-arun1930
 version: master
 summary:  Blink snap for the Raspberry Pi with Gobot
 description: |
@@ -8,7 +8,7 @@ description: |
 confinement: strict
 
 apps:
-  gobot-blink-elopio:
+  gobot-blink-arun1930:
     command: gobot-blink
     plugs:
       - gpio
@@ -17,4 +17,4 @@ parts:
   gobot-blink:
     source: .
     plugin: go
-    go-importpath: github.com/elopio/gobot-blink
+    go-importpath: github.com/Arun1930/gobot-blink
